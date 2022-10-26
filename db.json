@@ -1,0 +1,11 @@
+{
+    "people": [
+        {
+            "name": "Benjamin Franklin",
+            "lifeYears": "1706-1790",
+            "relation": "colleague",
+            "bio": "Franklin was a famous statesman, inventor, and scientist who was a founding father of the US. He was a drafter and signer of the Declaration of Independence and he worked with John Jay as a diplomat during the Treaty of Paris negotiations which ended the American Revolutionary War",
+            "image":         
+        }
+    ]
+}

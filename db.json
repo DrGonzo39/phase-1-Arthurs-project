@@ -8,7 +8,19 @@
             "image": "https://en.wikipedia.org/wiki/Benjamin_Franklin#/media/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg"        
         },
         {
-            "name": "Alexander Hamilton"
-        }
+            "name": "Alexander Hamilton",
+            "lifeYears": "1755-1804",
+            "relation": "colleague",
+            "bio": "Hamilton was another important founding father, an officer during the revolution and the architect of America's financial system. He and John Jay were close friends and worked together often, most notably on the Federalist Papers. Hamilton tragically died in a duel in 1804",
+            "image": "https://en.wikipedia.org/wiki/Alexander_Hamilton#/media/File:Alexander_Hamilton_portrait_by_John_Trumbull_1806.jpg"
+        },
+        {
+            "name": "John Adams",
+            "lifeYears": "1735-1826",
+            "relation": "colleague",
+            "bio": "Adams was the second president of the United States, and was a sort of mentor to John Jay. They shared very similar political views, worked together in congress for many years, and on the Treaty of Paris in 1783",
+            "image": "https://en.wikipedia.org/wiki/John_Adams#/media/File:Gilbert_Stuart,_John_Adams,_c._1800-1815,_NGA_42933.jpg"
+        },
+        {}
     ]
 }

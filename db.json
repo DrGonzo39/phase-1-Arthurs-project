@@ -21,6 +21,20 @@
             "bio": "Adams was the second president of the United States, and was a sort of mentor to John Jay. They shared very similar political views, worked together in congress for many years, and on the Treaty of Paris in 1783",
             "image": "https://en.wikipedia.org/wiki/John_Adams#/media/File:Gilbert_Stuart,_John_Adams,_c._1800-1815,_NGA_42933.jpg"
         },
+        {
+            "name": "George Washington",
+            "lifeYears": "1732-1799",
+            "relation": "colleague",
+            "bio": "Washington is historically America's most important military commander, and was it's first president under the constitution. He and John Jay weren't really friends, but they worked together a lot and Washington made Jay the first ever Cheif Justice of the Supreme Court",
+            "image": "https://en.wikipedia.org/wiki/George_Washington#/media/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+        },
+        {
+            "name": "Gilbert Stuart",
+            "lifeYears": "1755-1828",
+            "relation":"colleague",
+            "bio": "Stuart was the most imporant artist of the early American Republic, as his paintings of Americas founders are iconic. He and John Jay were friends, and it was Jay who introduced him to a lot of important early statesmen",
+            "image": "https://en.wikipedia.org/wiki/Gilbert_Stuart#/media/File:Sarah_Goodridge_-_Gilbert_Stuart_-_Google_Art_ProjectFXD.jpg"
+        },
         {}
     ]
 }

@@ -35,6 +35,26 @@
             "bio": "Stuart was the most imporant artist of the early American Republic, as his paintings of Americas founders are iconic. He and John Jay were friends, and it was Jay who introduced him to a lot of important early statesmen",
             "image": "https://en.wikipedia.org/wiki/Gilbert_Stuart#/media/File:Sarah_Goodridge_-_Gilbert_Stuart_-_Google_Art_ProjectFXD.jpg"
         },
-        {}
+        {
+            "name": "Sarah Livingston Jay",
+            "lifeYears": "1756-1802",
+            "relaion": "family",
+            "bio": "Sarah was John Jay's wife, they were married in 1774 a couple years before the revolution. Sarah was one of the most important socialites of the early republic, often hosting gatherings where important decisions were made. Sadly, she died at the age of 46 not long after John Jay had retired",
+            "image": "https://en.wikipedia.org/wiki/Sarah_Livingston_Jay#/media/File:Sarah_Livingston_Jay_EMWEA_(cropped).jpg"
+        },
+        {
+            "name": "William Jay",
+            "lifeYears": "1789-1858",
+            "relaion": "family",
+            "bio": "William was John and Sarah's younger son, but he inherited the homestead in Bedford where I work! He was a judge in Westchester county, NY, and was an active abolitionist from the 1830s til the end of his life",
+            "image": "https://en.wikipedia.org/wiki/William_Jay_(jurist)#/media/File:William_Jay,_crayon_portrait_by_Martin.png"
+        },
+        {
+            "name": "James Jay",
+            "lifeYears": "1732-1815",
+            "relation": "family",
+            "bio": "James Jay was John Jay's brother and he was an accomplished doctor. He's not that famous historically except for creating an inivisible ink formula that was used by spies during the American Revolution",
+            "image": "https://en.wikipedia.org/wiki/James_Jay#/media/File:Sir_James_Jay.jpg"
+        }
     ]
 }

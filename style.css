@@ -1,3 +1,6 @@
+body {
+    background: purple;
+}
 h1 {
     text-align: center;
     font-family: "Cambria";
@@ -13,11 +16,11 @@ p {
     font-style: italic;
 }
 h3 {
-    margin-left: 250px;
+    margin-left: 400px;
     font-family: "Cambria";
 }
 strong {
-    margin-left: 250px;
+    margin-left: 360px;
 }
 form {
     margin-left: 800px;
@@ -26,7 +29,7 @@ form {
     height: 800px;
     width: 600px;
     border: 1px solid black;
-    margin-left: 1100px;
+    margin-left: 900px;
 }
 #comment-box {
     height: 100px;

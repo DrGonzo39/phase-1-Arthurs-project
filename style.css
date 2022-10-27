@@ -22,6 +22,10 @@ strong {
 form {
     margin-left: 800px;
 }
+#comment-box {
+    height: 100px;
+    width: 250px;
+}
 img {
     height: 800px;
     width: 600px;

@@ -8,17 +8,19 @@ h2 {
 }
 p {
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-style: italic;
 }
 h3 {
-    margin-left: 150px;
+    margin-left: 250px;
+    font-family: "Cambria";
 }
 strong {
-    margin-left: 150px;
+    margin-left: 250px;
 }
 form {
-    margin-left: 150px;
+    margin-left: 250px;
 }
 img {
     height: 800px;

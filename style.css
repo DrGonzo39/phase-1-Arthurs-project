@@ -8,8 +8,17 @@ h2 {
 }
 p {
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h3 {
+    margin-left: 150px;
+}
+strong {
+    margin-left: 150px;
+}
+form {
+    margin-left: 150px;
 }
 img {
     height: 800px;

@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             data.filter((person) => {
                 console.log(person.name)
+                const li = document.createElement('li');
+                const ul = document.querySelector('ul');
+                li.textContent = person.name;
+                ul.appendChild(li);
             })
         })
 })

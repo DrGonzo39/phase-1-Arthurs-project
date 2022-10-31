@@ -8,8 +8,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 li.textContent = person.name;
                 ul.appendChild(li);
                 
-                li.addEventListener('click', (event) => {
-                    console.log(event)
+                li.addEventListener('mouseover', () => {
+                    const li = document.createElement('li');
+                    const ul = document.querySelector('ul');
+                    li.innerHTML = person.image;
+                    ul.appendChild(li);
+                    setTimeout(() => {
+                        ul.removeChild(li);
+                    }, 1500);
                 })
             })
         })

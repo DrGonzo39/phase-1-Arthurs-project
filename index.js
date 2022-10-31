@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ul.appendChild(li);
                     setTimeout(() => {
                         ul.removeChild(li);
-                    }, 1500);
+                    }, 5000);
                 })
 
                 li.addEventListener('click', () => {
@@ -26,7 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     p.textContent = person.bio;
                     div.appendChild(h4);   
                     div.appendChild(p);
-
+                    p.style.textAlign = 'left'
+                    setTimeout(() => {
+                        div.removeChild(h4);
+                        div.removeChild(p);
+                    }, 15000);
                 })
             })
         })

@@ -17,6 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
                         ul.removeChild(li);
                     }, 1500);
                 })
+
+                li.addEventListener('click', () => {
+                    const h4 = document.createElement('h4');
+                    const p = document.createElement('p');
+                    const div = document.querySelector('div');
+                    h4.textContent = person.lifeYears;
+                    p.textContent = person.bio;
+                    div.appendChild(h4);   
+                    div.appendChild(p);
+
+                })
             })
         })
 })

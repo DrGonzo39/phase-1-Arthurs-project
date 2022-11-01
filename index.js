@@ -20,16 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 li.addEventListener('click', () => {
                     const h4 = document.createElement('h4');
-                    const p = document.createElement('p');
+                    const h5 = document.createElement('h5');
                     const div = document.querySelector('div');
                     h4.textContent = person.lifeYears;
-                    p.textContent = person.bio;
+                    h5.textContent = person.bio;
                     div.appendChild(h4);   
-                    div.appendChild(p);
-                    p.style.textAlign = 'left'
+                    div.appendChild(h5);
                     setTimeout(() => {
                         div.removeChild(h4);
-                        div.removeChild(p);
+                        div.removeChild(h5);
                     }, 15000);
                 })
             })

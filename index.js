@@ -2,24 +2,32 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch("http://localhost:3000/people")
         .then(response => response.json())
         .then(data => {
-            data.filter((person) => {
+            data.filter((person) => { 
                 const li = document.createElement('li');
                 const ul = document.querySelector('ul');
                 li.textContent = person.name;
                 ul.appendChild(li);
                 
-                li.addEventListener('mouseover', () => {
-                    const li = document.createElement('li');
-                    const ul = document.querySelector('ul');
-                    li.textContent = person.book;
-                    ul.appendChild(li);
-                    setTimeout(() => {
-                        ul.removeChild(li);
-                    }, 5000);
+                li.addEventListener('mouseover', () => { 
+                    renderBook(person)
                 })
 
                 li.addEventListener('click', () => {
-                    const h4 = document.createElement('h4');
+                    renderYearsAndBio(person)
+                })
+            })
+        })
+        function renderBook(person) {
+            const li = document.createElement('li');
+            const ul = document.querySelector('ul');
+            li.textContent = person.book;
+            ul.appendChild(li);
+            setTimeout(() => {
+                ul.removeChild(li);
+            }, 5000); 
+        }
+        function renderYearsAndBio(person) {
+            const h4 = document.createElement('h4');
                     const h5 = document.createElement('h5');
                     const div = document.querySelector('div');
                     h4.textContent = person.lifeYears;
@@ -30,7 +38,5 @@ document.addEventListener('DOMContentLoaded', () => {
                         div.removeChild(h4);
                         div.removeChild(h5);
                     }, 15000);
-                })
-            })
-        })
+        }
 })

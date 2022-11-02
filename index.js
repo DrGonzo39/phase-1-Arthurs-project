@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 li.addEventListener('mouseover', () => {
                     const li = document.createElement('li');
                     const ul = document.querySelector('ul');
-                    li.innerHTML = person.image;
+                    li.textContent = person.book;
                     ul.appendChild(li);
                     setTimeout(() => {
                         ul.removeChild(li);

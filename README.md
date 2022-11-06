@@ -22,3 +22,11 @@ The image of Jay in the center of the page is the property of the John Jay Homes
 in Katonah, New York. Which is part of New York State Parks and Recreation, and since it is 
 over 100 years old, it is in the public domain!
 
+# Notes
+
+You will notice when looking my commit history that I changed the structure of both my html, 
+and my javascript(somewhat) in order to remove a form element, and to render the book titles
+instead of images of the poeple which was the initial idea. This is because having the images 
+appear and then disappear onscreen just disrupted the functionality of the website, and so
+I ultimately decided to have book my book titles render. It looks a heck of a lot cleaner,
+and it actually fits the purpose of the website more which was to be an educational resource!

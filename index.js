@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 li.addEventListener('click', () => {
                     renderYearsAndBio(person)
-                })
+                }) 
             })
         })
         function renderBook(person) {
@@ -39,4 +39,20 @@ document.addEventListener('DOMContentLoaded', () => {
                         div.removeChild(h5);
                     }, 15000);
         }
+    const form = document.getElementById('comments-questions');
+    
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const text = document.getElementById('comment-box')
+        const userText = text.value;
+        fetch("http://localhost:3000/userSubmits", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body :JSON.stringify({  "quesComm" : userText})
+        })
+    })
+    
 })
+

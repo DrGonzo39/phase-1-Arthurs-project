@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch("http://localhost:3000/people")
         .then(response => response.json())
         .then(data => {
+        // code that renders Jay's associates names onto page
             data.forEach((person) => { 
                 const li = document.createElement('li');
                 const ul = document.querySelector('ul');
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }) 
             })
         })
+        // code that renders a person's biography title upon mouseover
         function renderBook(person) {
             const li = document.createElement('li');
             const ul = document.querySelector('ul');
@@ -26,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ul.removeChild(li);
             }, 5000); 
         }
+        // code that shows a person's life years and biography into my text box upon click
         function renderYearsAndBio(person) {
             const h4 = document.createElement('h4');
                     const h5 = document.createElement('h5');
@@ -39,8 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         div.removeChild(h5);
                     }, 15000);
         }
+    // code that submits user comments and questions to the server when they enter text and submit the form
     const form = document.getElementById('comments-questions');
-    
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         const text = document.getElementById('comment-box')

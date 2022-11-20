@@ -55,7 +55,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             body :JSON.stringify({  "quesComm" : userText})
         })
+        setTimeout(() => {
+            text.value = null;
+        }, 200)
     })
     
 })
+
 
